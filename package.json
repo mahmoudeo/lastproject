@@ -1,0 +1,34 @@
+{
+  "name": "last-project",
+  "version": "1.0.0",
+  "description": "Safferni page using wepback , bootstrap , sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-build": "webpack --mode development",
+    "server-web": "webpack serve --mode development --stats-children"
+  },
+  "author": "Mahmoud_Elsaeed",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "rtlcss-loader": "^1.0.3",
+    "sass": "^1.81.0",
+    "sass-loader": "^16.0.3",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.1",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "jquery": "^3.7.1",
+    "kursor": "^0.1.6",
+    "sweetalert": "^2.1.2"
+  }
+}
